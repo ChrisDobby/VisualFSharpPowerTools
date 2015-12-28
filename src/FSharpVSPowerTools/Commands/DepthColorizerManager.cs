@@ -69,7 +69,7 @@ namespace FSharpVSPowerTools
     {
         [Export]
         [Name(Constants.depthAdornmentLayerName)]
-        [Order(Before = PredefinedAdornmentLayers.CurrentLineHighlighter)]
+        [Order(Before = PredefinedAdornmentLayers.Outlining)]
         internal AdornmentLayerDefinition AdornmentLayerDefinition { get; set; }
 
         private readonly ThemeManager _themeManager;
